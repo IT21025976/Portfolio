@@ -9,8 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
+  background-image: linear-gradient(to bottom right, #0F25D1, #50B4ED);
+  
 }
 
 h1,
@@ -22,6 +22,42 @@ h6 {
   color: #1e1e1e;
 }
 
+.outer-div {
+  border: 1px solid white;
+  display: flex;
+  height: 450px;
+}
+.outer-div-about {
+  border: 1px solid white;
+  display: flex;
+  height: 450px;
+}
+
+.outer-div > div {
+  background-image: linear-gradient(to bottom right, #737079, #738484);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  /* font-size: 30px; */
+  
+}
+
+.outer-div-about > div {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  /* font-size: 30px; */
+  
+}
+
+.outer-div-about img{
+  height: 300px;
+  width: 250px;
+}
+.item img {
+  height: 200px;
+  width: 200px
+}
 a {
   color: #1e1e1e;
   text-decoration: none;
@@ -83,6 +119,10 @@ a:hover {
   height: 32px;
   margin-right: 4px;
   overflow: hidden;
+}
+
+.container{
+  color: #ffffff;
 }
 
 .bg-image {
@@ -158,6 +198,7 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: lightblue;
 }
 
 .subtitle-a {
@@ -168,7 +209,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #6c7988;
   margin: 0 auto;
 }
 
