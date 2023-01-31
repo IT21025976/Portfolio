@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-image: linear-gradient(to bottom right, #0F25D1, #50B4ED);
+  background-image: linear-gradient(to bottom right, #0f43d1, #50a9ed);
   overflow-x: hidden;
 }
 
@@ -26,11 +26,18 @@ h6 {
   border: 1px solid white;
   display: flex;
   height: 500px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #4763ef;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .outer-div-about {
-  border: 1px solid rgb(255, 255, 255);
   display: flex;
-  height: 450px;
+  height: 500px;
+  border: 2px solid rgb(255, 255, 255);
+  background: rgba(144, 11, 227, 0.1);
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .outer-div > div {
@@ -45,21 +52,28 @@ h6 {
 }
 
 .outer-div-tech {
-  border: 1px solid rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-row-gap: 50px;
   grid-column-gap: 10px;
   padding: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  background: rgba(144, 11, 227, 0.1);
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.outer-div-tech > div {
-  background-color: #50B4ED;
+.outer-div-projects  {
   
-  align-content: center;
-  padding: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
-  /* font-size: 30px; */
+  border: 2px solid rgb(255, 255, 255);
+  display: flex;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 5px;
+  padding: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  background: rgba(144, 11, 227, 0.1);
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
 }
 
@@ -99,8 +113,14 @@ to { transform: translateY(0); opacity: 1; }
   animation: FadeIn 20s;
 }
 
+.row{
+  padding: 40px;
+  border-radius: 50px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
 .outer-div img{
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   height: fit-content;
   width: 100px;
 }
@@ -614,10 +634,7 @@ a:hover {
   align-items: center;
 }
 
-.item {
-  background-color: #298eff;
-  
-}
+
 
 .item h5{
   text-transform: uppercase;
@@ -876,7 +893,7 @@ a:hover {
 }
 
 .hero .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-image: linear-gradient(to right, rgb(0, 0, 0,0.8) , rgba(0, 0, 0, 0.3));
   position: absolute;
   top: 0;
   left: 0px;
@@ -1373,7 +1390,16 @@ a:hover {
 }
 
 .card-blog .card-body {
+  text-align: center;
   position: relative;
+  padding: 3px;
+  background-color: #b6d2f1;
+  color: #1e1e1e;
+}
+
+.card-img>img{
+  height: 250px;
+  width: 500px;
 }
 
 .card-blog .card-category-box {
@@ -1675,6 +1701,7 @@ animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite a
 left: -5%;
 top: 5%;
 
+opacity: 0.2;
 -webkit-transform: scale(0.6);
 -moz-transform: scale(0.6);
 transform: scale(0.6);
@@ -1687,6 +1714,7 @@ animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite a
 
 left: 5%;
 top: 80%;
+opacity: 0.2;
 
 -webkit-transform: scale(0.4);
 -moz-transform: scale(0.4);
@@ -1700,7 +1728,7 @@ animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite a
 
 left: 10%;
 top: 40%;
-
+opacity: 0.2;
 -webkit-transform: scale(0.7);
 -moz-transform: scale(0.7);
 transform: scale(0.7);
@@ -1713,7 +1741,7 @@ animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite a
 
 left: 20%;
 top: 0;
-
+opacity: 0.2;
 -webkit-transform: scale(0.3);
 -moz-transform: scale(0.3);
 transform: scale(0.3);
@@ -1726,7 +1754,7 @@ animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite a
 
 left: 30%;
 top: 50%;
-
+opacity: 0.2;
 -webkit-transform: scale(0.5);
 -moz-transform: scale(0.5);
 transform: scale(0.5);
@@ -1739,7 +1767,7 @@ animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite a
 
 left: 50%;
 top: 0;
-
+opacity: 0.2;
 -webkit-transform: scale(0.8);
 -moz-transform: scale(0.8);
 transform: scale(0.8);
@@ -1752,7 +1780,7 @@ animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite a
 
 left: 65%;
 top: 70%;
-
+opacity: 0.2;
 -webkit-transform: scale(0.4);
 -moz-transform: scale(0.4);
 transform: scale(0.4);
@@ -1765,7 +1793,7 @@ animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite a
 
 left: 80%;
 top: 10%;
-
+opacity: 0.2;
 -webkit-transform: scale(0.3);
 -moz-transform: scale(0.3);
 transform: scale(0.3);
@@ -1778,7 +1806,7 @@ animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite a
 
 left: 90%;
 top: 50%;
-
+opacity: 0.2;
 -webkit-transform: scale(0.6);
 -moz-transform: scale(0.6);
 transform: scale(0.6);
@@ -1788,7 +1816,7 @@ transform: scale(0.6);
   -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
 -moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
 animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
-
+opacity: 0.2;
 left: 80%;
 top: 80%;
 
@@ -1800,13 +1828,13 @@ transform: scale(0.3);
 /* OBJECTS */
 
 .bubble {
-  -webkit-border-radius: 50%;
--moz-border-radius: 50%;
-border-radius: 50%;
+  -webkit-border-radius: 10%;
+-moz-border-radius: 10%;
+border-radius: 10%;
 
-  -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
--moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgb(255, 255, 255);
+-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgb(255, 255, 255);
+box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgb(255, 255, 255);
 
   height: 200px;
 position: absolute;
@@ -1818,16 +1846,16 @@ width: 200px;
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
   background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
   background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
-  background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
+  background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(217, 136, 69, 0) 70%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(215, 38, 38, 0) 70%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
--webkit-border-radius: 50%;
--moz-border-radius: 50%;
-border-radius: 50%;
+-webkit-border-radius: 20%;
+-moz-border-radius: 10%;
+border-radius: 10%;
 
-  -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
--moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 0 20px 30px rgba(249, 0, 0, 0.3);
+-moz-box-shadow: inset 0 20px 30px rgba(240, 115, 12, 0.3);
 box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
 
 content: "";
