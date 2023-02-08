@@ -65,17 +65,26 @@ h6 {
 }
 .outer-div-projects  {
   
-  border: 2px solid rgb(255, 255, 255);
+
   display: flex;
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 5px;
-  padding: 10px;
-  border: 2px solid rgb(255, 255, 255);
+  padding: 20px;
   background: rgba(144, 11, 227, 0.1);
   border-radius: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+  margin-bottom: 50px;
 }
+
+.outer-div-projects>div{
+  margin: 25px;
+}
+
+.outer-div-projects>div img{
+  height: 300px;
+  width: 660px;
+}
+
 
 @keyframes FadeIn {
   0% {
@@ -137,9 +146,13 @@ to { transform: translateY(0); opacity: 1; }
   height: 300px;
   width: 250px;
 }
+
+
 .item img {
   height: 200px;
-  width: 200px
+  width: 200px;
+  align-items: center;
+  
 }
 a {
   color: #1e1e1e;
@@ -890,6 +903,10 @@ a:hover {
 .hero .hero-content {
   text-align: center;
   position: absolute;
+}
+.icon{
+  height: 10px;
+  width: 30px;
 }
 
 .hero .overlay-itro {
